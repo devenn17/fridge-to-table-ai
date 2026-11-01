@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Python
+ai-service/venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+client/.env
+server/.env
+ai-service/.env
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+
+# AI models
+*.pt
+# Local application data — may contain user information
+server/data/db.json
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env*
+!.env.example
+# Test image
+server/test_img.jpg
